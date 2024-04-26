@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-// Function to perform Naïve string matching
+
 void naiveStringMatch(char* text, char* pattern) {
     int n = strlen(text);
     int m = strlen(pattern);
